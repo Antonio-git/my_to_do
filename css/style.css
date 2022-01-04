@@ -85,7 +85,7 @@ body {
     display: none;
 }
 
-content ul {
+.content ul {
     padding: 0;
     margin: 0;
 }
