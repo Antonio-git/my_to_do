@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
     <title>todo_2022</title>
 </head>
 
@@ -11,18 +12,32 @@
 
     <div class="container">
         <div class="header">
-            <div class="clear"></div>
-            <div class="Title"></div>
+            <div class="clear">
+                <i class="fa fa-refresh"></i>
+            </div>
+            <div class="to_do_title">
+                <h1>2022 resolutions</h1>
+            </div>
             <div id="date"></div>
         </div>
         <div class="content">
+            <ul id="list">
+                <li class="item">
+                    <i class="fa fa-circle-thin co" job="complete" id="0"></i>
+                    <p class="text"> ASD</p>
+                    <i class="fa fa-trash-o de" job="delete" id="0"></i>
+
+                </li>
+
+            </ul>
 
         </div>
         <div class="add-to-do">
+            <i class="fa fa-plus-circle"></i>
             <input type="text" id="input" placeholder="To-do">
         </div>
     </div>
-
+    <script src="functional.js"></script>
 </body>
 
 </html>
