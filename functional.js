@@ -11,7 +11,7 @@ const list = document.getElementById("list");
 let LIST, id;
 const CHECK = "fa-check-circle";
 const UNCHECK = "fa-circle-thin";
-const LINE_THROUGHT = "lineThrough";
+const LINE_THROUGH = "lineThrough";
 
 let data = localStorage.getItem("TODO");
 // check if data is not empty
