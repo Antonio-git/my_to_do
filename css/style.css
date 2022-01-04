@@ -156,7 +156,7 @@ body {
 
 .add-to-do {
     position: relative;
-    width: 360px;
+    width: 580px;
     height: 40px;
     background-color: #FFF;
     padding: 10px;
@@ -173,7 +173,7 @@ body {
     position: absolute;
     left: 50px;
     height: 35px;
-    width: 310px;
+    width: auto;
     background-color: transparent;
     border: none;
     font-size: 20px;
